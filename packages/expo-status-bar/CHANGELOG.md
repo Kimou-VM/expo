@@ -1,5 +1,12 @@
 # Changelog
 
+## 58.0.4
+
+### Patch Changes
+
+- Add the `verticalBarBehaviorIOS` prop and `StatusBar.setVerticalBarBehaviorIOS()` to keep the status bar horizontal on devices such as iPhone Duo. ([#51928](https://github.com/expo/expo/pull/51928) by [@huntie](https://github.com/huntie))
+- Add `StatusBar.getVerticalBarEdgeIOS()` and `useVerticalBarEdgeIOS()` to read the edge of the vertical bar that holds the status bar on devices such as iPhone Duo. ([#51927](https://github.com/expo/expo/pull/51927) by [@huntie](https://github.com/huntie))
+
 ## 58.0.3
 
 ### Patch Changes
